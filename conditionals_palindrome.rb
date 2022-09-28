@@ -16,3 +16,13 @@
 # true
 
 p "Enter one word"
+
+input = gets.chomp.downcase
+
+if input == input.reverse
+  p true
+else p false 
+end
+
+
+
